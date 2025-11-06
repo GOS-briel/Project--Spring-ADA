@@ -18,7 +18,7 @@ public FilmeController(FilmeService filmeService){
 }
 @GetMapping
     public List<FilmeModel> ListarFilmes(){
-    return filmeService.ListarTodos();
+    return filmeService.listarTodos();
 }
 @PostMapping
     public ResponseEntity<FilmeModel> adicionar(@RequestBody FilmeModel filme) {

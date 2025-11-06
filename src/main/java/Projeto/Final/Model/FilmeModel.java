@@ -15,9 +15,9 @@ import org.springframework.graphql.data.federation.EntityMapping;
 @Table(name = "filmes")
 public class FilmeModel {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
 
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
     private long id;
 
     @Column(nullable = false)
