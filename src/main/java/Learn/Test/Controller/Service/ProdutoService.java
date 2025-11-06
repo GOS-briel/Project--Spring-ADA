@@ -1,5 +1,5 @@
-package Service;
-import Model.Produto;
+package Learn.Test.Controller.Service;
+import Learn.Test.Controller.Model.Produto;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
