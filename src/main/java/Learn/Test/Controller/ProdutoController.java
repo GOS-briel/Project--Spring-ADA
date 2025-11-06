@@ -1,8 +1,7 @@
-package Controller;
+package Learn.Test.Controller;
 
-import Model.Produto;
-import Model.Busca;
-import Service.ProdutoService;
+import Learn.Test.Controller.Model.Produto;
+import Learn.Test.Controller.Service.ProdutoService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,7 +18,7 @@ public ProdutoController(ProdutoService produtoService){
 }
 @GetMapping
 public String ListarProdutos(){
-    return produtoService.listarProdutos(); //Não consegui encontrar formas de corrigir o erro
+    return produtoService.listarProdutos().toString(); //Não consegui encontrar formas de corrigir o erro
 
 }
 @PostMapping

@@ -1,4 +1,4 @@
-package Model;
+package Learn.Test.Controller.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
